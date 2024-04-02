@@ -17,6 +17,6 @@ double max_quadratic(double A, double B, double C, double xl, double xr) {
 	if (xl < mid && mid < xr){
 		value = A * sqr(mid) + B * mid + C;
 		if (value > ret) ret = value;
-}
+	}
 	return ret;
 }
