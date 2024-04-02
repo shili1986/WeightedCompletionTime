@@ -1,3 +1,3 @@
 double inner_product(int len, double *x, double *y);
 double sqr(double t);
-double max_quadratic(double A, double B, double C, double xl, double xr); //It is guaranteed that A < 0
+double max_quadratic(double A, double B, double C, double xl, double xr); 
